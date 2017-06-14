@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Sukhvir Test",
+  "description": "This extension is test for Time Doctor",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons":{
+    "128":"icon.png"
+  },
+  "permissions": [
+    "tabs","<all_urls>","storage"
+  ],
+  "background":{
+    "scripts": [
+        "background.js"
+    ]
+  },
+  "web_accessible_resources":[
+    "oauth/*"
+  ],
+  "key":"MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6/ncMIZsEKWarbPiKhoNY1jRhhdmscgEng2WeMEgRfiCQSQctGGvKIslOMsTNKn+Gvb4zuF4n/7XMhm7Tmchu6iSiHFcFGVH37Eg9YI7k4+BYhBSXbqclsX/drxXeYjCVRpeDrCc2xf0ErBqBnk9rVrX0j4CSq3UVeWqhrDIqzY+iUeQKujOV6zkpbtPX8AO9JQp7UjiiBcni7hX1fvN2+/rJL53/FOn7GfOUAs9o8XGOCyNRRPNUPLmbxgRwe4pw48pU8nyUnVw0KidU5+PQaTax4D5qWILs/Ysz8ARNwQa5b30ycy9ubMYCb1Ud+6pjBRa8eWSFCYKlHcKaSd4LAgMBAAECggEAcuuylEUO9PbQv2gAM3pJvM4gcRMG3QFPjk4lpJt9nyqJrsMC4wcQL7FDUIjJBGIq788q1rRnQWPZAfJYqDjpwqipjOun211dT+Xp27a8+xTFKwE5enupw/ObZs2UvhBQVV2F/olNrE7vmfB/dcuqeYhX2Q5ccUdodKMjEms2hbC0SXK5vLKQ0jpEy1r0ro8wZPcEnubQ4WwJPoLmw2wuvctYyaN5oW78Ji6G+4izweGj3SfZq+Pv7C1YiogvNrwjZKgXdT7ecK45HQvn0E+8hDyKzNKb1Jjr9Z7cJ8ueLvQ5Ol3NXPn42ofB1JjL9O3iUU5qlLwcYgv2u5z7wuMyQQKBgQDnjyNVR6OlwEZR0zcFP4BB24ZId/EKI+D6799/4yW/RcskZh9+70J0s41wlF3JVLm0hYQpUoeQ9/y4A11IiLvc74bGXn5fsPC7eTRMYinT/M+J7FywJQnmVkfNxSLnDcrf10cI1SYjt7YemA5sjZGqFZk9Mr2GRuL3I73/4Q8SqwKBgQDOuybB+DQBHucVACWXLKIt/uMHtqQa69EbyjGEV7/yhBJ/I3G6fdv+qBxt4jZJtZS4w21C5l34KFBF4oPp75IawniRZNk9EpPImyYHNbzEK+QSSxn0CPvncI/8oe/CyA9FA25xJ/WbiKQ05CLbmYKvrpFerqbAt92PgYdF/pliIQKBgQCqeP6SMgOQa1VZuB2xh2ZtFahugZ660F85Xo80H44SmtdLHMPjN1G9iNKAJzpEllOBSypZIaEcYPV0o0VxuPhVVyHpuHdhC2qvGjQeZ8ZTgrNn3tL9+sanBK4oFxHy+Hx6/ooVPpathPpW26sCz9aFWRFPtKNCz70YJQAj+RSXsQKBgELcbLCXYdpq8DnujjnSibFummbIP1Mlqb/fKRywdLgu1vyfrgyu4BQAsxEm9H/qZmtLaW8Vqpa0EyJHHHrwrMRS2UPM5iXGeF2NMENssdyQhXcVKxOuRCqaUTdX+H96zNV5QqL+VYU0MEea8VsszwOa5hFFU1FJJjNfpSySJ3GBAoGANgbArNqN9HNIiIrwuB9zN9784Ef9gkrykOl5a9L+GfMxjoi36Je6tW0K2Xk6D/hoO36q/LinuwRWDevUelNBP3jKHGp/pu4uHNmP99q/1z70vJMH6eHAKVeBfPjL4ViNRDr1e1DOO73GQcD4UeSoST6mkzjyAjkLAIpJzT10ktI="
+}

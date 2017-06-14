@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sukhvir Test</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+      .userdetails{
+        cursor: pointer;
+        padding:10px;
+        background-color: #f0f7f9;
+        margin-bottom:5px;
+        box-shadow: 2px 1px 2px gray;
+        border-radius: 3px;
+      }
+      .userdetails:hover{
+        box-shadow: 2px 3px 2px gray;
+      }
+      .taskdetail{
+        padding-left:10px;
+        padding-right:5px;
+        padding-top:5px;
+        padding-bottom:5px;
+        background-color: #ececec;
+        margin-top: 5px;
+        margin-left: 10px;
+        font-size:13px;
+      }
+      #authenticate{
+        cursor: pointer;
+        color: #f4f4f4;
+        background: #f47e7e;
+        font-weight: bold;
+        margin: 50px;
+        /* margin-top: 50px; */
+        font-family: Arial,sans-serif;
+        border-radius: 4px;
+        border: solid 0 #e3edf4;
+        border-bottom: 2px solid #e76969;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        padding: 10px 25px;
+      }
+      #authenticate:hover{
+        background: #e76969
+      }
+    </style>
+  </head>
+  <body>
+    <input type="button" name="authenticate" value="Authenticate" id="authenticate" />
+    <div id="userdata"></div>
+    <div id="loading"><img src="" id="loadingimg" /></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
+
